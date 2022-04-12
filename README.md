@@ -18,4 +18,3 @@ optimization.
 This main branch contains this basic introductory information and the
 workflow to be optimized. There will be an additional branch added for
 each post in the series as they are completed.
-
