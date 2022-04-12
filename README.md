@@ -8,9 +8,10 @@ practices of optimizing software quickly and reliably.
 
 ## Modules
 
-This main branch contains only one module, `fospa-workload`, which is
-dedicated to the workload to be optimized in this blog series. Other
-branches contain additional modules to effect the optimization.
+This main branch contains only one module, `fospa-sut`, which is
+dedicated to the system under test (SUT) to be optimized in this blog
+series. Other branches contain additional modules to effect the
+optimization.
 
 ## Branches
 
