@@ -19,7 +19,7 @@
  */
 package com.sigpwned.fospa.sut.trie;
 
-import java.util.HashMap;
+import java.util.TreeMap;
 import java.util.Map;
 import com.sigpwned.fospa.sut.Grapheme;
 import com.sigpwned.fospa.sut.GraphemeData;
@@ -55,7 +55,7 @@ public class DefaultGraphemeTrie implements GraphemeTrie {
   private Grapheme grapheme;
 
   public DefaultGraphemeTrie() {
-    this.children = new HashMap<>();
+    this.children = new TreeMap<>();
   }
 
   @Override
