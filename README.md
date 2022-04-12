@@ -15,8 +15,6 @@ branches contain additional modules to effect the optimization.
 ## Branches
 
 This main branch contains this basic introductory information and the
-workflow to be optimized. Otherwise, there is a branch dedicated to
-each blog post in the series:
-
-* part-1-benchmark
+workflow to be optimized. There will be an additional branch added for
+each post in the series as they are completed.
 
