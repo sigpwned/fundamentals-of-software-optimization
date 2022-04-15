@@ -1,14 +1,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sigpwned.fospa</groupId>
-    <artifactId>fospa</artifactId>
+    <groupId>com.sigpwned.foso</groupId>
+    <artifactId>foso</artifactId>
     <version>0.0.0-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>FOSPA</name>
+    <name>FOSO</name>
     <inceptionYear>2022</inceptionYear>
-    <description>Code repository for the Fundamentals of Software Performance Analysis blog series</description>
-    <url>https://github.com/sigpwned/fundamentals-of-software-performance-analysis</url>
+    <description>Code repository for the Fundamentals of Software Optimization blog series</description>
+    <url>https://github.com/sigpwned/fundamentals-of-software-optimization</url>
 
     <organization>
         <name>Andy Boothe</name>
@@ -16,9 +16,9 @@
     </organization>
 
     <scm>
-        <connection>scm:git:ssh://git@github.com/sigpwned/fundamentals-of-software-performance-analysis.git</connection>
-        <developerConnection>scm:git:ssh://git@github.com/sigpwned/fundamentals-of-software-performance-analysis.git</developerConnection>
-        <url>https://github.com/sigpwned/fundamentals-of-software-performance-analysis/tree/main</url>
+        <connection>scm:git:ssh://git@github.com/sigpwned/fundamentals-of-software-optimization.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/sigpwned/fundamentals-of-software-optimization.git</developerConnection>
+        <url>https://github.com/sigpwned/fundamentals-of-software-optimization/tree/main</url>
         <tag>HEAD</tag>
     </scm>
 
@@ -117,6 +117,6 @@
     </dependencyManagement>
 
     <modules>
-        <module>fospa-sut</module>
+        <module>foso-sut</module>
     </modules>
 </project>

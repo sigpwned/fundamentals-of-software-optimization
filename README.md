@@ -1,14 +1,13 @@
-# Fundamentals of Software Performance Analysis
+# Fundamentals of Software Optimization
 
 This repository is the companion to the [Fundamentals of Software
-Performance
-Analysis](https://sigpwned.com/2022/04/12/introduction-to-fundamentals-of-software-performance-analysis/)
+Optimization](https://sigpwned.com/2022/04/15/introduction-to-fundamentals-of-software-optimization/)
 blog series. It covers the fundamental principles, tools, and
 practices of optimizing software quickly and reliably.
 
 ## Modules
 
-This main branch contains only one module, `fospa-sut`, which is
+This main branch contains only one module, `foso-sut`, which is
 dedicated to the system under test (SUT) to be optimized in this blog
 series. Other branches contain additional modules to effect the
 optimization.
