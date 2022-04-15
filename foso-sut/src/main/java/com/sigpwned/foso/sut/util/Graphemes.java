@@ -17,15 +17,15 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut.util;
+package com.sigpwned.foso.sut.util;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UncheckedIOException;
 import org.json.JSONObject;
 import org.json.JSONTokener;
-import com.sigpwned.fospa.sut.GraphemeData;
-import com.sigpwned.fospa.sut.trie.DefaultGraphemeTrie;
+import com.sigpwned.foso.sut.GraphemeData;
+import com.sigpwned.foso.sut.trie.DefaultGraphemeTrie;
 
 public final class Graphemes {
   private Graphemes() {}

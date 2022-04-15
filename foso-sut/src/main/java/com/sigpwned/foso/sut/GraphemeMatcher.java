@@ -17,11 +17,11 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut;
+package com.sigpwned.foso.sut;
 
 import java.util.function.Function;
 import java.util.regex.Matcher;
-import com.sigpwned.fospa.sut.util.Graphemes;
+import com.sigpwned.foso.sut.util.Graphemes;
 
 /**
  * The primary class used to process emoji.

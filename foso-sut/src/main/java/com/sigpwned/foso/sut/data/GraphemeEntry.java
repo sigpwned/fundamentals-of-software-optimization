@@ -17,7 +17,7 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut.data;
+package com.sigpwned.foso.sut.data;
 
 import java.util.Arrays;
 import java.util.Objects;

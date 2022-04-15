@@ -1,6 +1,6 @@
 /*-
  * =================================LICENSE_START==================================
- * emoji4j-core
+ * FOSPA - System Under Test
  * ====================================SECTION=====================================
  * Copyright (C) 2022 Andy Boothe
  * ====================================SECTION=====================================
@@ -17,16 +17,9 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut.trie;
-
-import com.sigpwned.fospa.sut.GraphemeMatcher;
-import com.sigpwned.fospa.sut.GraphemeMatcherTest;
-import com.sigpwned.fospa.sut.util.Graphemes;
-
-public class DefaultGraphemeTrieGraphemeMatcherTest extends GraphemeMatcherTest {
-  @Override
-  public GraphemeMatcher newGraphemeMatcher(String input) {
-    DefaultGraphemeTrie trie = Graphemes.getDefaultTrie();
-    return new GraphemeMatcher(trie, input);
-  }
-}
+/**
+ * Borrowed from emoji4j project for the purpose of the FOSPA discussion.
+ * 
+ * @see <a href="https://github.com/sigpwned/emoji4j">https://github.com/sigpwned/emoji4j</a>
+ */
+package com.sigpwned.foso.sut;

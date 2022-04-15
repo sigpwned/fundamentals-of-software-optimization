@@ -17,14 +17,14 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut.util;
+package com.sigpwned.foso.sut.util;
 
 import java.util.ArrayList;
 import java.util.List;
 import org.json.JSONArray;
 import org.json.JSONObject;
-import com.sigpwned.fospa.sut.GraphemeData;
-import com.sigpwned.fospa.sut.data.GraphemeEntry;
+import com.sigpwned.foso.sut.GraphemeData;
+import com.sigpwned.foso.sut.data.GraphemeEntry;
 
 public final class Serialization {
   private Serialization() {}

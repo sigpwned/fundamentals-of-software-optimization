@@ -17,12 +17,12 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut;
+package com.sigpwned.foso.sut;
 
 import static java.util.Collections.unmodifiableList;
 import java.util.List;
 import java.util.Objects;
-import com.sigpwned.fospa.sut.data.GraphemeEntry;
+import com.sigpwned.foso.sut.data.GraphemeEntry;
 
 public class GraphemeData {
   public static GraphemeData of(String unicodeVersion, List<GraphemeEntry> graphemes) {

@@ -17,19 +17,19 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut.grapheme;
+package com.sigpwned.foso.sut.grapheme;
 
-import com.sigpwned.fospa.sut.Grapheme;
+import com.sigpwned.foso.sut.Grapheme;
 
 /**
- * A formal emoji grapheme
+ * A formal pictograph grapheme
  */
-public class Emoji extends Grapheme {
-  public static Emoji of(int[] coordinates, String name) {
-    return new Emoji(coordinates, name);
+public class Pictographic extends Grapheme {
+  public static Pictographic of(int[] coordinates, String name) {
+    return new Pictographic(coordinates, name);
   }
 
-  public Emoji(int[] coordinates, String name) {
-    super(Type.EMOJI, coordinates, name);
+  public Pictographic(int[] coordinates, String name) {
+    super(Type.PICTOGRAPHIC, coordinates, name);
   }
 }

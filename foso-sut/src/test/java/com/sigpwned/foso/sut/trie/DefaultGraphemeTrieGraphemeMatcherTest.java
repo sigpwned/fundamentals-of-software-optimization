@@ -17,19 +17,16 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut.grapheme;
+package com.sigpwned.foso.sut.trie;
 
-import com.sigpwned.fospa.sut.Grapheme;
+import com.sigpwned.foso.sut.GraphemeMatcher;
+import com.sigpwned.foso.sut.GraphemeMatcherTest;
+import com.sigpwned.foso.sut.util.Graphemes;
 
-/**
- * A formal pictograph grapheme
- */
-public class Pictographic extends Grapheme {
-  public static Pictographic of(int[] coordinates, String name) {
-    return new Pictographic(coordinates, name);
-  }
-
-  public Pictographic(int[] coordinates, String name) {
-    super(Type.PICTOGRAPHIC, coordinates, name);
+public class DefaultGraphemeTrieGraphemeMatcherTest extends GraphemeMatcherTest {
+  @Override
+  public GraphemeMatcher newGraphemeMatcher(String input) {
+    DefaultGraphemeTrie trie = Graphemes.getDefaultTrie();
+    return new GraphemeMatcher(trie, input);
   }
 }

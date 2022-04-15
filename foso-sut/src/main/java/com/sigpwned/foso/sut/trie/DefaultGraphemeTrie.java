@@ -17,16 +17,16 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut.trie;
+package com.sigpwned.foso.sut.trie;
 
 import java.util.TreeMap;
+import com.sigpwned.foso.sut.Grapheme;
+import com.sigpwned.foso.sut.GraphemeData;
+import com.sigpwned.foso.sut.GraphemeTrie;
+import com.sigpwned.foso.sut.data.GraphemeEntry;
+import com.sigpwned.foso.sut.grapheme.Emoji;
+import com.sigpwned.foso.sut.grapheme.Pictographic;
 import java.util.Map;
-import com.sigpwned.fospa.sut.Grapheme;
-import com.sigpwned.fospa.sut.GraphemeData;
-import com.sigpwned.fospa.sut.GraphemeTrie;
-import com.sigpwned.fospa.sut.data.GraphemeEntry;
-import com.sigpwned.fospa.sut.grapheme.Emoji;
-import com.sigpwned.fospa.sut.grapheme.Pictographic;
 
 public class DefaultGraphemeTrie implements GraphemeTrie {
   public static DefaultGraphemeTrie fromGraphemeData(GraphemeData gs) {

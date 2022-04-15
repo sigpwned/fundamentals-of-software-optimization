@@ -17,15 +17,15 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut;
+package com.sigpwned.foso.sut;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.Test;
-import com.sigpwned.fospa.sut.data.GraphemeEntry;
-import com.sigpwned.fospa.sut.util.Graphemes;
+import com.sigpwned.foso.sut.data.GraphemeEntry;
+import com.sigpwned.foso.sut.util.Graphemes;
 
 public abstract class GraphemeMatcherTest {
   public abstract GraphemeMatcher newGraphemeMatcher(String input);
