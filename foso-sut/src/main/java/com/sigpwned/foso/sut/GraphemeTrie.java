@@ -17,14 +17,13 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut;
+package com.sigpwned.foso.sut;
 
-public interface GraphemeMatchResult {
-  public int start();
+public interface GraphemeTrie {
+  GraphemeTrie getChild(int codePoint);
 
-  public int end();
-
-  public String group();
-
-  public Grapheme grapheme();
+  /**
+   * @return the grapheme
+   */
+  Grapheme getGrapheme();
 }

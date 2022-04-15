@@ -17,13 +17,19 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-package com.sigpwned.fospa.sut;
+package com.sigpwned.foso.sut.grapheme;
 
-public interface GraphemeTrie {
-  GraphemeTrie getChild(int codePoint);
+import com.sigpwned.foso.sut.Grapheme;
 
-  /**
-   * @return the grapheme
-   */
-  Grapheme getGrapheme();
+/**
+ * A formal emoji grapheme
+ */
+public class Emoji extends Grapheme {
+  public static Emoji of(int[] coordinates, String name) {
+    return new Emoji(coordinates, name);
+  }
+
+  public Emoji(int[] coordinates, String name) {
+    super(Type.EMOJI, coordinates, name);
+  }
 }

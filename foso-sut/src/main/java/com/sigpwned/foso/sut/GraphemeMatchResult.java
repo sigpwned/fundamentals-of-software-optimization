@@ -1,6 +1,6 @@
 /*-
  * =================================LICENSE_START==================================
- * FOSPA - System Under Test
+ * emoji4j-core
  * ====================================SECTION=====================================
  * Copyright (C) 2022 Andy Boothe
  * ====================================SECTION=====================================
@@ -17,9 +17,14 @@
  * limitations under the License.
  * ==================================LICENSE_END===================================
  */
-/**
- * Borrowed from emoji4j project for the purpose of the FOSPA discussion.
- * 
- * @see <a href="https://github.com/sigpwned/emoji4j">https://github.com/sigpwned/emoji4j</a>
- */
-package com.sigpwned.fospa.sut;
+package com.sigpwned.foso.sut;
+
+public interface GraphemeMatchResult {
+  public int start();
+
+  public int end();
+
+  public String group();
+
+  public Grapheme grapheme();
+}

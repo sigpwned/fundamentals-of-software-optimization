@@ -118,5 +118,6 @@
 
     <modules>
         <module>foso-sut</module>
+        <module>foso-benchmark</module>
     </modules>
 </project>
