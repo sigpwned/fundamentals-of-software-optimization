@@ -19,14 +19,14 @@
  */
 package com.sigpwned.foso.sut.trie;
 
-import java.util.HashMap;
-import java.util.Map;
 import com.sigpwned.foso.sut.Grapheme;
 import com.sigpwned.foso.sut.GraphemeData;
 import com.sigpwned.foso.sut.GraphemeTrie;
 import com.sigpwned.foso.sut.data.GraphemeEntry;
 import com.sigpwned.foso.sut.grapheme.Emoji;
 import com.sigpwned.foso.sut.grapheme.Pictographic;
+import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import it.unimi.dsi.fastutil.ints.Int2ObjectOpenHashMap;
 
 public class DefaultGraphemeTrie implements GraphemeTrie {
   public static DefaultGraphemeTrie fromGraphemeData(GraphemeData gs) {
@@ -51,11 +51,11 @@ public class DefaultGraphemeTrie implements GraphemeTrie {
     return result;
   }
 
-  private final Map<Integer, DefaultGraphemeTrie> children;
+  private final Int2ObjectMap<DefaultGraphemeTrie> children;
   private Grapheme grapheme;
 
   public DefaultGraphemeTrie() {
-    this.children = new HashMap<>();
+    this.children = new Int2ObjectOpenHashMap<>();
   }
 
   @Override
