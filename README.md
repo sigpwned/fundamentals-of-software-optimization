@@ -17,3 +17,7 @@ optimization.
 This main branch contains this basic introductory information and the
 workflow to be optimized. There will be an additional branch added for
 each post in the series as they are completed.
+
+* [Part I -- Benchmarking](https://github.com/sigpwned/fundamentals-of-software-optimization/tree/part-i-benchmarking)
+* [Part II -- Optimizing Wall Clock Performance](https://github.com/sigpwned/fundamentals-of-software-optimization/tree/part-ii-optimizing-wall-clock-performance)
+* [Part III -- Optimizing Memory Allocation Performance](https://github.com/sigpwned/fundamentals-of-software-optimization/tree/part-iii-optimizing-memory-allocation-performance)
